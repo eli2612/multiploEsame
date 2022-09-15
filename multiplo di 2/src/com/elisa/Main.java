@@ -2,7 +2,9 @@ package com.elisa;
 import java.util.Scanner;
 public class Main {
 
-    public static void main(String[] args) {
+    public static boolean main(String[] args) {
+
+
 
         Scanner scan =new Scanner(System.in);
         System.out.print("Scrivi il numero: ");
@@ -10,11 +12,14 @@ public class Main {
 
         if (n1 % 2 == 0){
             System.out.println("multiplo di due");
+            return true;
 
         }
         else{
             System.out.println(" non e' multiplo di 2");
+            return false;
 
+            }
         }
     }
-}
+
