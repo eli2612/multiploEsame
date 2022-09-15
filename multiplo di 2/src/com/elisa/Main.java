@@ -4,7 +4,7 @@ public class Main {
 
     private Main(){}
 
-    public static boolean main() {
+    public static int main() {
 
 
         Scanner scan = new Scanner(System.in);
@@ -14,10 +14,11 @@ public class Main {
 
         if (n1 % 2 == 0) {
 
-            return true;
+            return 1;
 
-        } else {
-            return false;
+        }
+        else{
+            return 0;
         }
 
 
